@@ -4,6 +4,7 @@ import DataBinding from '@/views/DataBinding.vue'
 import DataBinding1 from '@/views/DataBinding1.vue'
 import DataBindingList from '@/views/DataBindingList.vue'
 import NestedComponent from '@/views/NestedComponent.vue'
+import ParentComponent from '@/views/ParentComponent.vue'
 
 const routes = [
   {
@@ -38,6 +39,11 @@ const routes = [
     path: '/componentexample',
     name: 'ComponentExample',
     component: NestedComponent
+  },
+  {
+    path: '/parentcomponent',
+    name: 'ParentComponent',
+    component: ParentComponent
   },
 ]
 
