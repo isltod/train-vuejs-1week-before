@@ -3,7 +3,9 @@
     <router-link to="/">Home</router-link> |
     <router-link to="/about">About</router-link> |
     <router-link to="/databinding1">Data Binding 1</router-link> |
-    <router-link to="/databinding2">Data Binding 2</router-link>
+    <router-link to="/databinding2">Data Binding 2</router-link><br />
+    <router-link to="/databindinglist">Data Binding List</router-link><br />
+    <router-link to="/componentexample">Component Example</router-link><br />
   </nav>
   <router-view/>
 </template>
