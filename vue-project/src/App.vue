@@ -6,6 +6,7 @@
     <router-link to="/databinding2">Data Binding 2</router-link><br />
     <router-link to="/databindinglist">Data Binding List</router-link><br />
     <router-link to="/componentexample">Component Example</router-link><br />
+    <router-link to="/parentcomponent">Parent Component</router-link><br />
   </nav>
   <router-view/>
 </template>
