@@ -5,6 +5,10 @@ import DataBinding1 from '@/views/DataBinding1.vue'
 import DataBindingList from '@/views/DataBindingList.vue'
 import NestedComponent from '@/views/NestedComponent.vue'
 import ParentComponent from '@/views/ParentComponent.vue'
+import SlotUseModalLayout from '@/views/SlotUseModalLayout.vue'
+import ProvideInject from '@/views/ProvideInject.vue'
+import Calculator from '@/views/Calculator.vue'
+import CompositionAPI from '@/views/CompositionAPI.vue'
 
 const routes = [
   {
@@ -44,6 +48,26 @@ const routes = [
     path: '/parentcomponent',
     name: 'ParentComponent',
     component: ParentComponent
+  },
+  {
+    path: '/slotuse',
+    name: 'SlotUse',
+    component: SlotUseModalLayout
+  },
+  {
+    path: '/provideinject',
+    name: 'ProvideInject',
+    component: ProvideInject
+  },
+  {
+    path: '/oldcalculator',
+    name: 'OldCalculator',
+    component: Calculator
+  },
+  {
+    path: '/newcalculator',
+    name: 'NewCalculator',
+    component: CompositionAPI
   },
 ]
 
