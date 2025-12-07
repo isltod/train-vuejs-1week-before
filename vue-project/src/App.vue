@@ -5,8 +5,12 @@
     <router-link to="/databinding1">Data Binding 1</router-link> |
     <router-link to="/databinding2">Data Binding 2</router-link><br />
     <router-link to="/databindinglist">Data Binding List</router-link><br />
-    <router-link to="/componentexample">Component Example</router-link><br />
-    <router-link to="/parentcomponent">Parent Component</router-link><br />
+    <router-link to="/componentexample">Component Example</router-link> |
+    <router-link to="/parentcomponent">Parent Component</router-link> |
+    <router-link to="/slotuse">Slot Use</router-link><br />
+    <router-link to="/provideinject">Provide Inject</router-link> |
+    <router-link to="/oldcalculator">Old Calculator</router-link> |
+    <router-link to="/newcalculator">New Calculator</router-link> |
   </nav>
   <router-view/>
 </template>
